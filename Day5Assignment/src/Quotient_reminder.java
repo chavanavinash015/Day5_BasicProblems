@@ -9,7 +9,7 @@ public class Quotient_reminder {
 		System.out.println("Enter Divisor: ");
 		int divisor = sc.nextInt();
 		int Quotient = dividend / divisor;
-		int Reminder = dividend / divisor;
+		int Reminder = dividend % divisor;
 		System.out.println("Quotient = " + Quotient + " and Reminder = " + Reminder);
 	}
 }
